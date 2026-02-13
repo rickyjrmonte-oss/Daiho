@@ -1,4 +1,4 @@
-const API_BASE = "https://daiho-auto-parts-2.onrender.com";
+const API_BASE = "https://daiho-f.onrender.com";
 
 const saleBody = document.getElementById("saleBody");
 const grossSaleEl = document.getElementById("grossSale");
@@ -254,5 +254,6 @@ btnDownload.onclick = async () => {
 // --- Init ---
 
 loadForDate(currentDate);
+
 
 
